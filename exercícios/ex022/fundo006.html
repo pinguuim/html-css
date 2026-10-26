@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /* auto, tamanho fixo(px, %), contain, cover */
+            background-size: cover; auto, tamanho fixo(px, %), contain, cover
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover; /*auto, tamanho fixo(px, %), contain, cover */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +34,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium incidunt culpa voluptate nesciunt architecto ex placeat, inventore consequatur, ut voluptas magnam eum itaque, fugit deserunt et dolorem quod praesentium? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non soluta autem perspiciatis. Voluptatum labore aut praesentium expedita facere quas. Quod enim magnam est quas accusantium voluptatem, ad ex hic ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, dolorum consectetur mollitia omnis officia provident reprehenderit adipisci magni repudiandae. Nesciunt cumque laborum maiores quia iusto odit dolorem commodi, impedit aspernatur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium incidunt culpa voluptate nesciunt architecto ex placeat, inventore consequatur, ut voluptas magnam eum itaque, fugit deserunt et dolorem quod praesentium? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non soluta autem perspiciatis. Voluptatum labore aut praesentium expedita facere quas. Quod enim magnam est quas accusantium voluptatem, ad ex hic ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, dolorum consectetur mollitia omnis officia provident reprehenderit adipisci magni repudiandae. Nesciunt cumque laborum maiores quia iusto odit dolorem commodi, impedit aspernatur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium incidunt culpa voluptate nesciunt architecto ex placeat, inventore consequatur, ut voluptas magnam eum itaque, fugit deserunt et dolorem quod praesentium? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non soluta autem perspiciatis. Voluptatum labore aut praesentium expedita facere quas. Quod enim magnam est quas accusantium voluptatem, ad ex hic ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, dolorum consectetur mollitia omnis officia provident reprehenderit adipisci magni repudiandae. Nesciunt cumque laborum maiores quia iusto odit dolorem commodi, impedit aspernatur?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium incidunt culpa voluptate nesciunt architecto ex placeat, inventore consequatur, ut voluptas magnam eum itaque, fugit deserunt et dolorem quod praesentium? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non soluta autem perspiciatis. Voluptatum labore aut praesentium expedita facere quas. Quod enim magnam est quas accusantium voluptatem, ad ex hic ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, dolorum consectetur mollitia omnis officia provident reprehenderit adipisci magni repudiandae. Nesciunt cumque laborum maiores quia iusto odit dolorem commodi, impedit aspernatur?</p>
     </main>
 </body>
